@@ -9,7 +9,7 @@ Built solo in 24 hours for the **Hack-Nation 7th Global AI Hackathon · Challeng
 
 | | |
 |---|---|
-| Live demo | `https://<your-deployment>` *(fill in after deploying)* |
+| Live demo | https://cite-map.vercel.app |
 | Rule records | **51**: 44 extracted automatically from 54 law texts (incl. every single-section statute in the corpus, Massachusetts notice / reprisal statutes, SF and Berkeley deposit rules) + 7 labelled "text not in corpus" records: 1 ordinance named on a city's own page (Jersey City Rent Control Ordinance, Chapter 260), 4 found from the organisers' link-only source list (topic read from the URL), 2 named only in the change cases (Hoboken ban, MA ballot question IP 25-21). These always answer **unknown** (or failed), never applies. Each record has `record_type` (operative law / pending bill / failed proposal / placeholder) and `source_authority` |
 | Rule inventory | `outputs/rule_inventory.json`: every jurisdiction × category (78 cells) with status — rule found, possible gap (with candidate sentences for human review), no local rule because state law bars it (quoted), text not in corpus, or no rule found in corpus. This is how we represent "no rule at this level" findings |
 | Quotes | Every extracted rule's quote is an exact substring of its source file (rules whose quote can't be found are dropped). Placeholders say "text not in corpus" instead of quoting law. |
