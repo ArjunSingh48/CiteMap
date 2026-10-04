@@ -7,7 +7,3 @@ cache/
 audit/
 *.db
 .venv/
-
-# personal notes, not for the public repo
-PROGRESS.md
-MORNING_REPORT.md
