@@ -1,0 +1,5 @@
+# tests: make test (pytest) and make stress (also drives a real browser)
+-r requirements.txt
+-r requirements-server.txt
+pytest==9.1.1
+playwright==1.56.0

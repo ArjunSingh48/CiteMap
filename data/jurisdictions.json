@@ -1,0 +1,71 @@
+{
+ "_note": "Add a state or city here; no code change is needed for a new city whose sources use known citation formats.",
+ "states": {
+  "CA": "California",
+  "NJ": "New Jersey",
+  "MA": "Massachusetts"
+ },
+ "cities": {
+  "CA": [
+   "Los Angeles",
+   "San Francisco",
+   "San Diego",
+   "Berkeley",
+   "Santa Ana"
+  ],
+  "NJ": [
+   "Jersey City",
+   "Hoboken",
+   "Newark"
+  ],
+  "MA": [
+   "Boston",
+   "Cambridge"
+  ]
+ },
+ "city_codes": {
+  "San Francisco": "S.F. Admin. Code",
+  "Los Angeles": "L.A. Mun. Code",
+  "San Diego": "San Diego Mun. Code",
+  "Berkeley": "Berkeley Mun. Code",
+  "Santa Ana": "Santa Ana Mun. Code",
+  "Boston": "Boston Mun. Code",
+  "Cambridge": "Cambridge Mun. Code",
+  "Jersey City": "Jersey City Mun. Code",
+  "Hoboken": "Hoboken City Code",
+  "Newark": "Newark Mun. Code"
+ },
+ "aliases": {
+  "MA|dorchester": "Boston",
+  "MA|roxbury": "Boston",
+  "MA|east boston": "Boston",
+  "MA|brighton": "Boston",
+  "MA|allston": "Boston",
+  "MA|south boston": "Boston",
+  "MA|jamaica plain": "Boston",
+  "MA|hyde park": "Boston",
+  "MA|mattapan": "Boston",
+  "MA|charlestown": "Boston",
+  "MA|roslindale": "Boston",
+  "MA|west roxbury": "Boston",
+  "MA|mission hill": "Boston",
+  "MA|back bay": "Boston",
+  "CA|san ysidro": "San Diego",
+  "CA|la jolla": "San Diego",
+  "CA|van nuys": "Los Angeles",
+  "CA|north hollywood": "Los Angeles",
+  "CA|sylmar": "Los Angeles",
+  "CA|tujunga": "Los Angeles",
+  "CA|sunland": "Los Angeles",
+  "CA|north hills": "Los Angeles",
+  "CA|granada hills": "Los Angeles",
+  "CA|panorama city": "Los Angeles",
+  "CA|sun valley": "Los Angeles",
+  "CA|mission hills": "Los Angeles",
+  "CA|hollywood": "Los Angeles",
+  "CA|studio city": "Los Angeles",
+  "CA|sherman oaks": "Los Angeles",
+  "CA|pacoima": "Los Angeles",
+  "CA|arleta": "Los Angeles"
+ }
+}

@@ -1,0 +1,12 @@
+# Pinned versions the pipeline was built and tested with (Python 3.10+)
+jsonschema==4.26.0
+rapidfuzz==3.14.6
+python-dotenv==1.2.3
+# optional: AI extraction mode (only used if ANTHROPIC_API_KEY is set)
+anthropic==1.11.0
+# web server (also listed here because Vercel only reads requirements.txt)
+fastapi==0.142.2
+starlette==1.6.0
+pydantic==2.13.5
+uvicorn==0.53.0
+httpx==0.28.1

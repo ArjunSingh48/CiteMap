@@ -1,0 +1,2082 @@
+{
+ "as_of": "2026-10-01",
+ "summary": {
+  "rule_found": 44,
+  "no_rule_found_in_corpus": 22,
+  "text_not_in_corpus": 11,
+  "no_local_rule_state_bars": 1
+ },
+ "matrix": [
+  {
+   "jurisdiction": "CA",
+   "level": "state",
+   "category": "rent_increase_limits",
+   "rule_ids": [
+    "r-0013"
+   ],
+   "operative_rule_ids": [
+    "r-0013"
+   ],
+   "text_docs": [
+    "D016",
+    "D022",
+    "D023",
+    "D024",
+    "D025",
+    "D026",
+    "D027"
+   ],
+   "link_only_docs": [
+    "D015",
+    "D017",
+    "D018",
+    "D019",
+    "D020",
+    "D021",
+    "D028"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "CA",
+   "level": "state",
+   "category": "just_cause_eviction",
+   "rule_ids": [
+    "r-0012"
+   ],
+   "operative_rule_ids": [
+    "r-0012"
+   ],
+   "text_docs": [
+    "D016",
+    "D022",
+    "D023",
+    "D024",
+    "D025",
+    "D026",
+    "D027"
+   ],
+   "link_only_docs": [
+    "D015",
+    "D017",
+    "D018",
+    "D019",
+    "D020",
+    "D021",
+    "D028"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "CA",
+   "level": "state",
+   "category": "security_deposits",
+   "rule_ids": [
+    "r-0015"
+   ],
+   "operative_rule_ids": [
+    "r-0015"
+   ],
+   "text_docs": [
+    "D016",
+    "D022",
+    "D023",
+    "D024",
+    "D025",
+    "D026",
+    "D027"
+   ],
+   "link_only_docs": [
+    "D015",
+    "D017",
+    "D018",
+    "D019",
+    "D020",
+    "D021",
+    "D028"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "CA",
+   "level": "state",
+   "category": "application_screening_fees",
+   "rule_ids": [
+    "r-0011"
+   ],
+   "operative_rule_ids": [
+    "r-0011"
+   ],
+   "text_docs": [
+    "D016",
+    "D022",
+    "D023",
+    "D024",
+    "D025",
+    "D026",
+    "D027"
+   ],
+   "link_only_docs": [
+    "D015",
+    "D017",
+    "D018",
+    "D019",
+    "D020",
+    "D021",
+    "D028"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "CA",
+   "level": "state",
+   "category": "screening_restrictions",
+   "rule_ids": [
+    "r-0014"
+   ],
+   "operative_rule_ids": [
+    "r-0014"
+   ],
+   "text_docs": [
+    "D016",
+    "D022",
+    "D023",
+    "D024",
+    "D025",
+    "D026",
+    "D027"
+   ],
+   "link_only_docs": [
+    "D015",
+    "D017",
+    "D018",
+    "D019",
+    "D020",
+    "D021",
+    "D028"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "CA",
+   "level": "state",
+   "category": "algorithmic_rent_setting",
+   "rule_ids": [
+    "r-0010"
+   ],
+   "operative_rule_ids": [
+    "r-0010"
+   ],
+   "text_docs": [
+    "D016",
+    "D022",
+    "D023",
+    "D024",
+    "D025",
+    "D026",
+    "D027"
+   ],
+   "link_only_docs": [
+    "D015",
+    "D017",
+    "D018",
+    "D019",
+    "D020",
+    "D021",
+    "D028"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "rent_increase_limits",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D065",
+    "D066",
+    "D067",
+    "D068",
+    "D069"
+   ],
+   "link_only_docs": [
+    "D060",
+    "D061",
+    "D062",
+    "D063",
+    "D064"
+   ],
+   "rejected_candidates": [
+    {
+     "doc_id": "D067",
+     "score": 12,
+     "text": "An increase in rent in excess of any rent control or rent leveling ordinance, or if the property is not subject to rent control, an unreasonable or unconscionable rent increase.",
+     "rejection_reason": "state text defers to municipal ordinances (no state numeric cap)"
+    },
+    {
+     "doc_id": "D067",
+     "score": 10,
+     "text": "The rent increase must not be unconscionable and must comply with all other laws or municipal ordinances, including rent control.",
+     "rejection_reason": "state text defers to municipal ordinances (no state numeric cap)"
+    },
+    {
+     "doc_id": "D067",
+     "score": 8,
+     "text": "The increase in rent must not be unconscionable; it must not be so unreasonable as to shock the conscience of a fair and honest person and must comply with any municipal ordinances governing rent increases.",
+     "rejection_reason": "state text defers to municipal ordinances (no state numeric cap)"
+    }
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No state numeric rent cap: the state text defers to municipal rent control / rent leveling ordinances (and an unconscionable-increase standard).",
+   "basis_doc": "D067",
+   "basis_quote": "An increase in rent in excess of any rent control or rent leveling ordinance, or if the property is not subject to rent control, an unreasonable or unconscionable rent increase."
+  },
+  {
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "just_cause_eviction",
+   "rule_ids": [
+    "r-0033"
+   ],
+   "operative_rule_ids": [
+    "r-0033"
+   ],
+   "text_docs": [
+    "D065",
+    "D066",
+    "D067",
+    "D068",
+    "D069"
+   ],
+   "link_only_docs": [
+    "D060",
+    "D061",
+    "D062",
+    "D063",
+    "D064"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "security_deposits",
+   "rule_ids": [
+    "r-0035"
+   ],
+   "operative_rule_ids": [
+    "r-0035"
+   ],
+   "text_docs": [
+    "D065",
+    "D066",
+    "D067",
+    "D068",
+    "D069"
+   ],
+   "link_only_docs": [
+    "D060",
+    "D061",
+    "D062",
+    "D063",
+    "D064"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "application_screening_fees",
+   "rule_ids": [
+    "r-0032"
+   ],
+   "operative_rule_ids": [
+    "r-0032"
+   ],
+   "text_docs": [
+    "D065",
+    "D066",
+    "D067",
+    "D068",
+    "D069"
+   ],
+   "link_only_docs": [
+    "D060",
+    "D061",
+    "D062",
+    "D063",
+    "D064"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "screening_restrictions",
+   "rule_ids": [
+    "r-0034"
+   ],
+   "operative_rule_ids": [
+    "r-0034"
+   ],
+   "text_docs": [
+    "D065",
+    "D066",
+    "D067",
+    "D068",
+    "D069"
+   ],
+   "link_only_docs": [
+    "D060",
+    "D061",
+    "D062",
+    "D063",
+    "D064"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "algorithmic_rent_setting",
+   "rule_ids": [
+    "r-0031"
+   ],
+   "operative_rule_ids": [
+    "r-0031"
+   ],
+   "text_docs": [
+    "D065",
+    "D066",
+    "D067",
+    "D068",
+    "D069"
+   ],
+   "link_only_docs": [
+    "D060",
+    "D061",
+    "D062",
+    "D063",
+    "D064"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "MA",
+   "level": "state",
+   "category": "rent_increase_limits",
+   "rule_ids": [
+    "r-0028",
+    "r-0049"
+   ],
+   "operative_rule_ids": [
+    "r-0028"
+   ],
+   "text_docs": [
+    "D045",
+    "D046",
+    "D047",
+    "D048",
+    "D049",
+    "D050",
+    "D051",
+    "D052",
+    "D053",
+    "D057",
+    "D058"
+   ],
+   "link_only_docs": [
+    "D054",
+    "D055",
+    "D056",
+    "D059"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "MA",
+   "level": "state",
+   "category": "just_cause_eviction",
+   "rule_ids": [
+    "r-0024",
+    "r-0025",
+    "r-0026",
+    "r-0027"
+   ],
+   "operative_rule_ids": [
+    "r-0024",
+    "r-0025",
+    "r-0026",
+    "r-0027"
+   ],
+   "text_docs": [
+    "D045",
+    "D046",
+    "D047",
+    "D048",
+    "D049",
+    "D050",
+    "D051",
+    "D052",
+    "D053",
+    "D057",
+    "D058"
+   ],
+   "link_only_docs": [
+    "D054",
+    "D055",
+    "D056",
+    "D059"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "MA",
+   "level": "state",
+   "category": "security_deposits",
+   "rule_ids": [
+    "r-0030"
+   ],
+   "operative_rule_ids": [
+    "r-0030"
+   ],
+   "text_docs": [
+    "D045",
+    "D046",
+    "D047",
+    "D048",
+    "D049",
+    "D050",
+    "D051",
+    "D052",
+    "D053",
+    "D057",
+    "D058"
+   ],
+   "link_only_docs": [
+    "D054",
+    "D055",
+    "D056",
+    "D059"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "MA",
+   "level": "state",
+   "category": "application_screening_fees",
+   "rule_ids": [
+    "r-0022",
+    "r-0023"
+   ],
+   "operative_rule_ids": [
+    "r-0022",
+    "r-0023"
+   ],
+   "text_docs": [
+    "D045",
+    "D046",
+    "D047",
+    "D048",
+    "D049",
+    "D050",
+    "D051",
+    "D052",
+    "D053",
+    "D057",
+    "D058"
+   ],
+   "link_only_docs": [
+    "D054",
+    "D055",
+    "D056",
+    "D059"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "MA",
+   "level": "state",
+   "category": "screening_restrictions",
+   "rule_ids": [
+    "r-0029"
+   ],
+   "operative_rule_ids": [
+    "r-0029"
+   ],
+   "text_docs": [
+    "D045",
+    "D046",
+    "D047",
+    "D048",
+    "D049",
+    "D050",
+    "D051",
+    "D052",
+    "D053",
+    "D057",
+    "D058"
+   ],
+   "link_only_docs": [
+    "D054",
+    "D055",
+    "D056",
+    "D059"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "MA",
+   "level": "state",
+   "category": "algorithmic_rent_setting",
+   "rule_ids": [
+    "r-0020",
+    "r-0021"
+   ],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D045",
+    "D046",
+    "D047",
+    "D048",
+    "D049",
+    "D050",
+    "D051",
+    "D052",
+    "D053",
+    "D057",
+    "D058"
+   ],
+   "link_only_docs": [
+    "D054",
+    "D055",
+    "D056",
+    "D059"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "rule_ids": [
+    "r-0019"
+   ],
+   "operative_rule_ids": [
+    "r-0019"
+   ],
+   "text_docs": [
+    "D039",
+    "D040",
+    "D041",
+    "D042",
+    "D043"
+   ],
+   "link_only_docs": [
+    "D038",
+    "D044"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "rule_ids": [
+    "r-0017",
+    "r-0018"
+   ],
+   "operative_rule_ids": [
+    "r-0017",
+    "r-0018"
+   ],
+   "text_docs": [
+    "D039",
+    "D040",
+    "D041",
+    "D042",
+    "D043"
+   ],
+   "link_only_docs": [
+    "D038",
+    "D044"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "category": "security_deposits",
+   "rule_ids": [
+    "r-0048"
+   ],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D039",
+    "D040",
+    "D041",
+    "D042",
+    "D043"
+   ],
+   "link_only_docs": [
+    "D038",
+    "D044"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D039",
+    "D040",
+    "D041",
+    "D042",
+    "D043"
+   ],
+   "link_only_docs": [
+    "D038",
+    "D044"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 5 text document(s) for Los Angeles, CA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D039",
+    "D040",
+    "D041",
+    "D042",
+    "D043"
+   ],
+   "link_only_docs": [
+    "D038",
+    "D044"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 5 text document(s) for Los Angeles, CA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D039",
+    "D040",
+    "D041",
+    "D042",
+    "D043"
+   ],
+   "link_only_docs": [
+    "D038",
+    "D044"
+   ],
+   "rejected_candidates": [
+    {
+     "doc_id": "D039",
+     "score": 8,
+     "text": "In July 2024, the San Francisco Board of Supervisors approved legislation to ban property owners and managers from using algorithm-based tools that recommend or set rental prices.",
+     "rejection_reason": "cross_jurisdiction_reference"
+    }
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 5 text document(s) for Los Angeles, CA states a rule on this topic (candidates were rejected; see rejected_candidates)."
+  },
+  {
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "rule_ids": [
+    "r-0040"
+   ],
+   "operative_rule_ids": [
+    "r-0040"
+   ],
+   "text_docs": [
+    "D078",
+    "D079",
+    "D080",
+    "D081",
+    "D082",
+    "D083"
+   ],
+   "link_only_docs": [],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "rule_ids": [
+    "r-0039"
+   ],
+   "operative_rule_ids": [
+    "r-0039"
+   ],
+   "text_docs": [
+    "D078",
+    "D079",
+    "D080",
+    "D081",
+    "D082",
+    "D083"
+   ],
+   "link_only_docs": [],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "security_deposits",
+   "rule_ids": [
+    "r-0042"
+   ],
+   "operative_rule_ids": [
+    "r-0042"
+   ],
+   "text_docs": [
+    "D078",
+    "D079",
+    "D080",
+    "D081",
+    "D082",
+    "D083"
+   ],
+   "link_only_docs": [],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D078",
+    "D079",
+    "D080",
+    "D081",
+    "D082",
+    "D083"
+   ],
+   "link_only_docs": [],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 6 text document(s) for San Francisco, CA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "rule_ids": [
+    "r-0041"
+   ],
+   "operative_rule_ids": [
+    "r-0041"
+   ],
+   "text_docs": [
+    "D078",
+    "D079",
+    "D080",
+    "D081",
+    "D082",
+    "D083"
+   ],
+   "link_only_docs": [],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "rule_ids": [
+    "r-0038"
+   ],
+   "operative_rule_ids": [
+    "r-0038"
+   ],
+   "text_docs": [
+    "D078",
+    "D079",
+    "D080",
+    "D081",
+    "D082",
+    "D083"
+   ],
+   "link_only_docs": [],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D073",
+    "D076"
+   ],
+   "link_only_docs": [
+    "D074",
+    "D075",
+    "D077"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 2 text document(s) for San Diego, CA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "rule_ids": [
+    "r-0037"
+   ],
+   "operative_rule_ids": [
+    "r-0037"
+   ],
+   "text_docs": [
+    "D073",
+    "D076"
+   ],
+   "link_only_docs": [
+    "D074",
+    "D075",
+    "D077"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "category": "security_deposits",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D073",
+    "D076"
+   ],
+   "link_only_docs": [
+    "D074",
+    "D075",
+    "D077"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 2 text document(s) for San Diego, CA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D073",
+    "D076"
+   ],
+   "link_only_docs": [
+    "D074",
+    "D075",
+    "D077"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 2 text document(s) for San Diego, CA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "rule_ids": [
+    "r-0050"
+   ],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D073",
+    "D076"
+   ],
+   "link_only_docs": [
+    "D074",
+    "D075",
+    "D077"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "rule_ids": [
+    "r-0036"
+   ],
+   "operative_rule_ids": [
+    "r-0036"
+   ],
+   "text_docs": [
+    "D073",
+    "D076"
+   ],
+   "link_only_docs": [
+    "D074",
+    "D075",
+    "D077"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "rule_ids": [
+    "r-0004"
+   ],
+   "operative_rule_ids": [
+    "r-0004"
+   ],
+   "text_docs": [
+    "D001",
+    "D003",
+    "D004",
+    "D005",
+    "D006",
+    "D007",
+    "D008",
+    "D009"
+   ],
+   "link_only_docs": [
+    "D002"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "rule_ids": [
+    "r-0003"
+   ],
+   "operative_rule_ids": [
+    "r-0003"
+   ],
+   "text_docs": [
+    "D001",
+    "D003",
+    "D004",
+    "D005",
+    "D006",
+    "D007",
+    "D008",
+    "D009"
+   ],
+   "link_only_docs": [
+    "D002"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "security_deposits",
+   "rule_ids": [
+    "r-0006"
+   ],
+   "operative_rule_ids": [
+    "r-0006"
+   ],
+   "text_docs": [
+    "D001",
+    "D003",
+    "D004",
+    "D005",
+    "D006",
+    "D007",
+    "D008",
+    "D009"
+   ],
+   "link_only_docs": [
+    "D002"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "rule_ids": [
+    "r-0002"
+   ],
+   "operative_rule_ids": [
+    "r-0002"
+   ],
+   "text_docs": [
+    "D001",
+    "D003",
+    "D004",
+    "D005",
+    "D006",
+    "D007",
+    "D008",
+    "D009"
+   ],
+   "link_only_docs": [
+    "D002"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "rule_ids": [
+    "r-0005"
+   ],
+   "operative_rule_ids": [
+    "r-0005"
+   ],
+   "text_docs": [
+    "D001",
+    "D003",
+    "D004",
+    "D005",
+    "D006",
+    "D007",
+    "D008",
+    "D009"
+   ],
+   "link_only_docs": [
+    "D002"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "rule_ids": [
+    "r-0001"
+   ],
+   "operative_rule_ids": [
+    "r-0001"
+   ],
+   "text_docs": [
+    "D001",
+    "D003",
+    "D004",
+    "D005",
+    "D006",
+    "D007",
+    "D008",
+    "D009"
+   ],
+   "link_only_docs": [
+    "D002"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "rule_ids": [
+    "r-0044"
+   ],
+   "operative_rule_ids": [
+    "r-0044"
+   ],
+   "text_docs": [
+    "D084",
+    "D085"
+   ],
+   "link_only_docs": [
+    "D086",
+    "D087"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "rule_ids": [
+    "r-0043"
+   ],
+   "operative_rule_ids": [
+    "r-0043"
+   ],
+   "text_docs": [
+    "D084",
+    "D085"
+   ],
+   "link_only_docs": [
+    "D086",
+    "D087"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "category": "security_deposits",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D084",
+    "D085"
+   ],
+   "link_only_docs": [
+    "D086",
+    "D087"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 2 text document(s) for Santa Ana, CA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D084",
+    "D085"
+   ],
+   "link_only_docs": [
+    "D086",
+    "D087"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 2 text document(s) for Santa Ana, CA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D084",
+    "D085"
+   ],
+   "link_only_docs": [
+    "D086",
+    "D087"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 2 text document(s) for Santa Ana, CA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "rule_ids": [
+    "r-0051"
+   ],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D084",
+    "D085"
+   ],
+   "link_only_docs": [
+    "D086",
+    "D087"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "rule_ids": [
+    "r-0047"
+   ],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D036"
+   ],
+   "link_only_docs": [
+    "D035",
+    "D037"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D036"
+   ],
+   "link_only_docs": [
+    "D035",
+    "D037"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 1 text document(s) for Jersey City, NJ states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "category": "security_deposits",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D036"
+   ],
+   "link_only_docs": [
+    "D035",
+    "D037"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 1 text document(s) for Jersey City, NJ states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "category": "application_screening_fees",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D036"
+   ],
+   "link_only_docs": [
+    "D035",
+    "D037"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 1 text document(s) for Jersey City, NJ states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "category": "screening_restrictions",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D036"
+   ],
+   "link_only_docs": [
+    "D035",
+    "D037"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 1 text document(s) for Jersey City, NJ states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "rule_ids": [
+    "r-0046"
+   ],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D036"
+   ],
+   "link_only_docs": [
+    "D035",
+    "D037"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [],
+   "link_only_docs": [
+    "D032",
+    "D033",
+    "D034"
+   ],
+   "status": "text_not_in_corpus"
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [],
+   "link_only_docs": [
+    "D032",
+    "D033",
+    "D034"
+   ],
+   "status": "text_not_in_corpus"
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "category": "security_deposits",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [],
+   "link_only_docs": [
+    "D032",
+    "D033",
+    "D034"
+   ],
+   "status": "text_not_in_corpus"
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "category": "application_screening_fees",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [],
+   "link_only_docs": [
+    "D032",
+    "D033",
+    "D034"
+   ],
+   "status": "text_not_in_corpus"
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "category": "screening_restrictions",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [],
+   "link_only_docs": [
+    "D032",
+    "D033",
+    "D034"
+   ],
+   "status": "text_not_in_corpus"
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "rule_ids": [
+    "r-0045"
+   ],
+   "operative_rule_ids": [],
+   "text_docs": [],
+   "link_only_docs": [
+    "D032",
+    "D033",
+    "D034"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [],
+   "link_only_docs": [
+    "D070",
+    "D071",
+    "D072"
+   ],
+   "status": "text_not_in_corpus"
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [],
+   "link_only_docs": [
+    "D070",
+    "D071",
+    "D072"
+   ],
+   "status": "text_not_in_corpus"
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "category": "security_deposits",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [],
+   "link_only_docs": [
+    "D070",
+    "D071",
+    "D072"
+   ],
+   "status": "text_not_in_corpus"
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "category": "application_screening_fees",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [],
+   "link_only_docs": [
+    "D070",
+    "D071",
+    "D072"
+   ],
+   "status": "text_not_in_corpus"
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "category": "screening_restrictions",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [],
+   "link_only_docs": [
+    "D070",
+    "D071",
+    "D072"
+   ],
+   "status": "text_not_in_corpus"
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [],
+   "link_only_docs": [
+    "D070",
+    "D071",
+    "D072"
+   ],
+   "status": "text_not_in_corpus"
+  },
+  {
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "rule_ids": [
+    "r-0008"
+   ],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D010",
+    "D011",
+    "D012",
+    "D013",
+    "D014"
+   ],
+   "link_only_docs": [],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "rule_ids": [
+    "r-0007"
+   ],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D010",
+    "D011",
+    "D012",
+    "D013",
+    "D014"
+   ],
+   "link_only_docs": [],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "category": "security_deposits",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D010",
+    "D011",
+    "D012",
+    "D013",
+    "D014"
+   ],
+   "link_only_docs": [],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 5 text document(s) for Boston, MA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D010",
+    "D011",
+    "D012",
+    "D013",
+    "D014"
+   ],
+   "link_only_docs": [],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 5 text document(s) for Boston, MA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "rule_ids": [
+    "r-0009"
+   ],
+   "operative_rule_ids": [
+    "r-0009"
+   ],
+   "text_docs": [
+    "D010",
+    "D011",
+    "D012",
+    "D013",
+    "D014"
+   ],
+   "link_only_docs": [],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D010",
+    "D011",
+    "D012",
+    "D013",
+    "D014"
+   ],
+   "link_only_docs": [],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 5 text document(s) for Boston, MA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D029",
+    "D031"
+   ],
+   "link_only_docs": [
+    "D030"
+   ],
+   "status": "no_local_rule_state_bars",
+   "basis_rule": "r-0028",
+   "basis_citation": "Mass. Gen. Laws ch. 40P, § 4",
+   "basis_quote": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:"
+  },
+  {
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "rule_ids": [
+    "r-0016"
+   ],
+   "operative_rule_ids": [
+    "r-0016"
+   ],
+   "text_docs": [
+    "D029",
+    "D031"
+   ],
+   "link_only_docs": [
+    "D030"
+   ],
+   "status": "rule_found"
+  },
+  {
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "category": "security_deposits",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D029",
+    "D031"
+   ],
+   "link_only_docs": [
+    "D030"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 2 text document(s) for Cambridge, MA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D029",
+    "D031"
+   ],
+   "link_only_docs": [
+    "D030"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 2 text document(s) for Cambridge, MA states a rule on this topic."
+  },
+  {
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D029",
+    "D031"
+   ],
+   "link_only_docs": [
+    "D030"
+   ],
+   "rejected_candidates": [
+    {
+     "doc_id": "D029",
+     "score": 6,
+     "text": "Under the Ordinance it is an unlawful practice for any person directly or indirectly to withhold, deny, or in any manner limit the full use of a public accommodation by any person, or discriminate against such person with respect to the use of such accommodation, because of the race, color, sex, age, religious creed, disability, national origin or ancestry, sexual orientation, gender, marital status, family status, military status or source of income of such person.",
+     "rejection_reason": "wrong_category (public accommodation, not housing)"
+    }
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 2 text document(s) for Cambridge, MA states a rule on this topic (candidates were rejected; see rejected_candidates)."
+  },
+  {
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "rule_ids": [],
+   "operative_rule_ids": [],
+   "text_docs": [
+    "D029",
+    "D031"
+   ],
+   "link_only_docs": [
+    "D030"
+   ],
+   "status": "no_rule_found_in_corpus",
+   "basis": "No sentence in the 2 text document(s) for Cambridge, MA states a rule on this topic."
+  }
+ ],
+ "no_rule_findings": [
+  {
+   "finding_id": "nr-0001",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "rent_increase_limits",
+   "searched_doc_ids": [
+    "D065",
+    "D066",
+    "D067",
+    "D068",
+    "D069"
+   ],
+   "basis": "No state numeric rent cap: the state text defers to municipal rent control / rent leveling ordinances (and an unconscionable-increase standard).",
+   "citation": null,
+   "quoted_span": "An increase in rent in excess of any rent control or rent leveling ordinance, or if the property is not subject to rent control, an unreasonable or unconscionable rent increase.",
+   "basis_doc": "D067",
+   "rejected_candidates": [
+    {
+     "doc_id": "D067",
+     "score": 12,
+     "text": "An increase in rent in excess of any rent control or rent leveling ordinance, or if the property is not subject to rent control, an unreasonable or unconscionable rent increase.",
+     "rejection_reason": "state text defers to municipal ordinances (no state numeric cap)"
+    },
+    {
+     "doc_id": "D067",
+     "score": 10,
+     "text": "The rent increase must not be unconscionable and must comply with all other laws or municipal ordinances, including rent control.",
+     "rejection_reason": "state text defers to municipal ordinances (no state numeric cap)"
+    },
+    {
+     "doc_id": "D067",
+     "score": 8,
+     "text": "The increase in rent must not be unconscionable; it must not be so unreasonable as to shock the conscience of a fair and honest person and must comply with any municipal ordinances governing rent increases.",
+     "rejection_reason": "state text defers to municipal ordinances (no state numeric cap)"
+    }
+   ]
+  },
+  {
+   "finding_id": "nr-0002",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "searched_doc_ids": [
+    "D039",
+    "D040",
+    "D041",
+    "D042",
+    "D043"
+   ],
+   "basis": "No sentence in the 5 text document(s) for Los Angeles, CA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0003",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "searched_doc_ids": [
+    "D039",
+    "D040",
+    "D041",
+    "D042",
+    "D043"
+   ],
+   "basis": "No sentence in the 5 text document(s) for Los Angeles, CA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0004",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Los Angeles, CA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "searched_doc_ids": [
+    "D039",
+    "D040",
+    "D041",
+    "D042",
+    "D043"
+   ],
+   "basis": "No sentence in the 5 text document(s) for Los Angeles, CA states a rule on this topic (candidates were rejected; see rejected_candidates).",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null,
+   "rejected_candidates": [
+    {
+     "doc_id": "D039",
+     "score": 8,
+     "text": "In July 2024, the San Francisco Board of Supervisors approved legislation to ban property owners and managers from using algorithm-based tools that recommend or set rental prices.",
+     "rejection_reason": "cross_jurisdiction_reference"
+    }
+   ]
+  },
+  {
+   "finding_id": "nr-0005",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "searched_doc_ids": [
+    "D078",
+    "D079",
+    "D080",
+    "D081",
+    "D082",
+    "D083"
+   ],
+   "basis": "No sentence in the 6 text document(s) for San Francisco, CA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0006",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "searched_doc_ids": [
+    "D073",
+    "D076"
+   ],
+   "basis": "No sentence in the 2 text document(s) for San Diego, CA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0007",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "category": "security_deposits",
+   "searched_doc_ids": [
+    "D073",
+    "D076"
+   ],
+   "basis": "No sentence in the 2 text document(s) for San Diego, CA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0008",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "searched_doc_ids": [
+    "D073",
+    "D076"
+   ],
+   "basis": "No sentence in the 2 text document(s) for San Diego, CA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0009",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "category": "security_deposits",
+   "searched_doc_ids": [
+    "D084",
+    "D085"
+   ],
+   "basis": "No sentence in the 2 text document(s) for Santa Ana, CA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0010",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "searched_doc_ids": [
+    "D084",
+    "D085"
+   ],
+   "basis": "No sentence in the 2 text document(s) for Santa Ana, CA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0011",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Santa Ana, CA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "searched_doc_ids": [
+    "D084",
+    "D085"
+   ],
+   "basis": "No sentence in the 2 text document(s) for Santa Ana, CA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0012",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "searched_doc_ids": [
+    "D036"
+   ],
+   "basis": "No sentence in the 1 text document(s) for Jersey City, NJ states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0013",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "category": "security_deposits",
+   "searched_doc_ids": [
+    "D036"
+   ],
+   "basis": "No sentence in the 1 text document(s) for Jersey City, NJ states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0014",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "category": "application_screening_fees",
+   "searched_doc_ids": [
+    "D036"
+   ],
+   "basis": "No sentence in the 1 text document(s) for Jersey City, NJ states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0015",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "category": "screening_restrictions",
+   "searched_doc_ids": [
+    "D036"
+   ],
+   "basis": "No sentence in the 1 text document(s) for Jersey City, NJ states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0016",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "category": "security_deposits",
+   "searched_doc_ids": [
+    "D010",
+    "D011",
+    "D012",
+    "D013",
+    "D014"
+   ],
+   "basis": "No sentence in the 5 text document(s) for Boston, MA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0017",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "searched_doc_ids": [
+    "D010",
+    "D011",
+    "D012",
+    "D013",
+    "D014"
+   ],
+   "basis": "No sentence in the 5 text document(s) for Boston, MA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0018",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Boston, MA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "searched_doc_ids": [
+    "D010",
+    "D011",
+    "D012",
+    "D013",
+    "D014"
+   ],
+   "basis": "No sentence in the 5 text document(s) for Boston, MA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0019",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "searched_doc_ids": [
+    "D029",
+    "D031"
+   ],
+   "basis": "State law bars a local rule of this kind.",
+   "citation": "Mass. Gen. Laws ch. 40P, § 4",
+   "quoted_span": "No city or town may enact, maintain or enforce rent control of any kind, except that any city or town that accepts this chapter may adopt rent control regulation that provides:",
+   "basis_rule_id": "r-0028"
+  },
+  {
+   "finding_id": "nr-0020",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "category": "security_deposits",
+   "searched_doc_ids": [
+    "D029",
+    "D031"
+   ],
+   "basis": "No sentence in the 2 text document(s) for Cambridge, MA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0021",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "searched_doc_ids": [
+    "D029",
+    "D031"
+   ],
+   "basis": "No sentence in the 2 text document(s) for Cambridge, MA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  },
+  {
+   "finding_id": "nr-0022",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "searched_doc_ids": [
+    "D029",
+    "D031"
+   ],
+   "basis": "No sentence in the 2 text document(s) for Cambridge, MA states a rule on this topic (candidates were rejected; see rejected_candidates).",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null,
+   "rejected_candidates": [
+    {
+     "doc_id": "D029",
+     "score": 6,
+     "text": "Under the Ordinance it is an unlawful practice for any person directly or indirectly to withhold, deny, or in any manner limit the full use of a public accommodation by any person, or discriminate against such person with respect to the use of such accommodation, because of the race, color, sex, age, religious creed, disability, national origin or ancestry, sexual orientation, gender, marital status, family status, military status or source of income of such person.",
+     "rejection_reason": "wrong_category (public accommodation, not housing)"
+    }
+   ]
+  },
+  {
+   "finding_id": "nr-0023",
+   "finding": "no_rule_at_this_level",
+   "jurisdiction": "Cambridge, MA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "searched_doc_ids": [
+    "D029",
+    "D031"
+   ],
+   "basis": "No sentence in the 2 text document(s) for Cambridge, MA states a rule on this topic.",
+   "citation": null,
+   "quoted_span": null,
+   "basis_doc": null
+  }
+ ]
+}
